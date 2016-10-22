@@ -1,0 +1,117 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+  background-color: inherit;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+
+}
+
+input {
+  background: white;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.tab {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background: cyan;
+  text-align: center;
+}
+
+.tab:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+
+.clock {
+  width: 500px;
+  border: 1px solid black;
+  background-color: gray;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+ul.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs {
+  max-width: 200px;
+  margin: 100px;
+
+  /*border: 1px solid black;*/
+}
+
+.weather {
+  background-image: url(http://cdn.history.com/sites/2/2015/02/golden-gate-bridge-iStock_000019197672Large-H.jpeg);
+  height: 100px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.tabs li {
+  width: 50%;
+}
+.tabs article {
+  border: 1px solid black;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(http://www.whatsageek.com/wp-content/uploads/2014/12/Dr-Evil.jpg);
+  background-size: cover;
+}
+
+.auto {
+  border: 1px solid black;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auto input {
+  border: 1px solid black;
+}
